@@ -1,0 +1,29 @@
+    @import url('https://fonts.googleapis.com/css2?family=Blinker&display=swap');
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+    }
+    
+    html {
+        height: 100%
+    }
+    
+    body {
+        font-family: 'Blinker', sans-serif;
+        color: white;
+        font-size: 20px;
+        font-style: italic;
+        line-height: 40px;
+        background-image: url(../bg-body.gif);
+        background-position: bottom center;
+        background-attachment: fixed;
+    }
+    
+    div {
+        width: 90%;
+        padding: 20px 0 10px 0;
+        border: 10px solid cyan;
+        border-left-width: 30px;
+        border-right: dotted gray;
+        margin: 20px auto 20px auto;
+    }
