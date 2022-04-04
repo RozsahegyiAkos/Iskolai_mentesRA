@@ -7,6 +7,7 @@ a: A létező fájl végére hozzáfűz, ha még nem létezik ilyen nevű, akkor
 a+: Hozzáfűzést és olvasást is lehetővé tesz
 '''
 
+# Fájlbaírás további lehetőségei
 with open('kimenet.txt', 'w', encoding='utf-8') as celfajl:
     print('Ez kerül a fájlba...', file=celfajl)
 
