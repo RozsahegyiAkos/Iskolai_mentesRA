@@ -24,6 +24,6 @@ with open('gyumolcsok.txt', 'r', encoding='utf-8') as forrasfajl, \
     for sor in forrasfajl:
         print(sor.strip(), file=celfajl)
 
-with open('./adatok/gyumolcsok.txt', 'r', encoding='utf-8') as forrasfajl, \
-    open('./adatok/gyumolcsok_masolat.txt', 'w', encoding='utf-8') as celfajl:
+with open('gyumolcsok.txt', 'r', encoding='utf-8') as forrasfajl, \
+    open('gyumolcsok_masolat.txt', 'w', encoding='utf-8') as celfajl:
     celfajl.write(forrasfajl.read())
