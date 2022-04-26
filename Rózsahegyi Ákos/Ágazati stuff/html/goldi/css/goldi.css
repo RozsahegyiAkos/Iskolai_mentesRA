@@ -5,27 +5,27 @@ html {background-color:gray;}
 
 /* A dokumentumtörzs megjelenésének beállítása */
 body {
- margin-top:20px;  		/* felső margó */
- margin-bottom:20px;	/* alsó margó */
- /* bal és jobb margó 'auto' beállítása középre igazítást jelent */
- margin-left:auto;		
- margin-right:auto;	
- /* középre igazítás vége */
- font-size:120%;		/* betű mérete */
- width:80%;				/* szélesség */
- font-family: Verdana, Arial, sans-serif;	/* betűtípus */
- background-color:white;	/* háttérszín */
- border:1px solid black;	/* vékony, folytonos, feket szegély*/
- box-shadow:5px 5px 20px black;	
- /* fekete doboz árnyék. Jobbra vetül 5 képponttal, lefele 5 képponttal, és 20 képpontos az elmosás*/
-  }
+margin-top:20px;  		/* felső margó */
+margin-bottom:20px;	/* alsó margó */
+/* bal és jobb margó 'auto' beállítása középre igazítást jelent */
+margin-left:auto;		
+margin-right:auto;	
+/* középre igazítás vége */
+font-size:120%;		/* betű mérete */
+width:80%;				/* szélesség */
+font-family: Verdana, Arial, sans-serif;	/* betűtípus */
+background-color:white;	/* háttérszín */
+border:1px solid black;	/* vékony, folytonos, feket szegély*/
+box-shadow:5px 5px 20px black;	
+/* fekete doboz árnyék. Jobbra vetül 5 képponttal, lefele 5 képponttal, és 20 képpontos az elmosás*/
+}
 
 /* bekezdések megjelenésének beállítása */
- p {
-	 margin-left:20px;		/* bal margó */
-	 margin-right:30px;		/* jobb margó */
- }
- 
+p {
+	margin-left:20px;		/* bal margó */
+	margin-right:30px;		/* jobb margó */
+}
+
 /* felsoroláslisták megjelenésének beállítása */
 ul {
 	background-color:black;	/* fekete háttérszín*/
