@@ -12,9 +12,9 @@ class Hiresno:
 
 hires_nok = []
 for _ in range(3):
-    nev = str(input("Add meg egy híres nő nevét! "))
-    foglalkozas = str(input("Add meg a foglalkozását! "))
-    nemzetiseg = str(input("Add meg a nemzetiségét (a/n)! "))
+    nev = input("Add meg egy híres nő nevét! ")
+    foglalkozas = input("Add meg a foglalkozását! ")
+    nemzetiseg = input("Add meg a nemzetiségét (a/n)! ")
     hires_no = Hiresno(nev, foglalkozas, nemzetiseg)
     hires_nok.append(hires_no)
 
